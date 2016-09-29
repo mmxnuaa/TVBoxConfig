@@ -6,3 +6,6 @@ mount -o ro,remount rootfs
 
 log -t mmxpoweron system power on
 crond -b -c /data/mmx/cronjob/
+/data/mmx/set-route.sh
+
+#/data/mmx/xunlei/start.sh

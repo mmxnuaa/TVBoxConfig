@@ -1,0 +1,187 @@
+S   UID   PID  PPID   VSZ   RSS TTY   STIME TIME     CMD
+S     0     1     0   952   452 0:0   Sep08 00:00:09 /init
+S     0     2     0     0     0 0:0   Sep08 00:00:00 [kthreadd]
+S     0     3     2     0     0 0:0   Sep08 00:00:53 [ksoftirqd/0]
+S     0     5     2     0     0 0:0   Sep08 00:00:00 [kworker/0:0H]
+S     0     7     2     0     0 0:0   Sep08 00:02:10 [rcu_preempt]
+S     0     8     2     0     0 0:0   Sep08 00:00:00 [rcu_sched]
+S     0     9     2     0     0 0:0   Sep08 00:00:00 [rcu_bh]
+S     0    10     2     0     0 0:0   Sep08 00:00:07 [migration/0]
+S     0    11     2     0     0 0:0   Sep08 00:00:06 [migration/1]
+S     0    12     2     0     0 0:0   Sep08 00:00:11 [ksoftirqd/1]
+S     0    14     2     0     0 0:0   Sep08 00:00:02 [kworker/1:0H]
+R     0    15     2     0     0 0:0   Sep08 00:00:00 [migration/2]
+R     0    16     2     0     0 0:0   Sep08 00:00:05 [ksoftirqd/2]
+S     0    18     2     0     0 0:0   Sep08 00:00:01 [kworker/2:0H]
+R     0    19     2     0     0 0:0   Sep08 00:00:00 [migration/3]
+R     0    20     2     0     0 0:0   Sep08 00:00:00 [ksoftirqd/3]
+S     0    22     2     0     0 0:0   Sep08 00:00:00 [kworker/3:0H]
+S     0    23     2     0     0 0:0   Sep08 00:00:00 [khelper]
+S     0    24     2     0     0 0:0   Sep08 00:00:00 [kdevtmpfs]
+S     0    29     2     0     0 0:0   Sep08 00:00:00 [suspend]
+S     0   751     2     0     0 0:0   Sep08 00:00:00 [writeback]
+S     0   754     2     0     0 0:0   Sep08 00:00:00 [bioset]
+S     0   755     2     0     0 0:0   Sep08 00:00:00 [crypto]
+S     0   757     2     0     0 0:0   Sep08 00:00:00 [kblockd]
+S     0   770     2     0     0 0:0   Sep08 00:00:00 [khubd]
+S     0   802     2     0     0 0:0   Sep08 00:00:00 [cfg80211]
+S     0   886     2     0     0 0:0   Sep08 00:00:00 [NULL_task_for_h]
+S     0   887     2     0     0 0:0   Sep08 00:00:30 [cpu_hotplug_gdb]
+R     0   888     2     0     0 0:0   Sep08 00:00:00 [cpu_idle_gdbs]
+S     0   889     2     0     0 0:0   Sep08 00:00:00 [gp_pll]
+S     0   891     2     0     0 0:0   Sep08 00:00:00 [rpciod]
+S     0   892     2     0     0 0:0   Sep08 00:00:07 [kworker/0:1H]
+S     0   914     2     0     0 0:0   Sep08 00:01:00 [kswapd0]
+S     0   961     2     0     0 0:0   Sep08 00:00:00 [fsnotify_mark]
+S     0   987     2     0     0 0:0   Sep08 00:00:00 [ecryptfs-kthrea]
+S     0   988     2     0     0 0:0   Sep08 00:00:00 [nfsiod]
+S     0  1599     2     0     0 0:0   Sep08 00:00:00 [uether]
+S     0  1604     2     0     0 0:0   Sep08 00:00:00 [kpsmoused]
+S     0  1615     2     0     0 0:0   Sep08 00:00:00 [dm_bufio_cache]
+S     0  1622     2     0     0 0:0   Sep08 00:00:00 [binder]
+S     0  1636     2     0     0 0:0   Sep08 00:00:19 [kthread_hdcp]
+S     0  1645     2     0     0 0:0   Sep08 00:00:00 [irq/249-sd_emmc]
+S     0  1647     2     0     0 0:0   Sep08 00:00:00 [irq/99-sd_emmc_]
+S     0  1648     2     0     0 0:0   Sep08 00:00:00 [irq/101-sd_emmc]
+S     0  1650     2     0     0 0:0   Sep08 00:02:12 [irq/248-sd_emmc]
+S     0  1654     2     0     0 0:0   Sep08 00:00:02 [vmalloc_ion]
+S     0  1655     2     0     0 0:0   Sep08 00:00:00 [carveout_ion]
+S     0  1664     2     0     0 0:0   Sep08 00:00:00 [ge2d_monitor]
+S     0  1697     2     0     0 0:0   Sep08 00:00:00 [encode_monitor]
+S     0  1712     2     0     0 0:0   Sep08 00:01:27 [kthread_h265]
+S     0  1717     2     0     0 0:0   Sep08 00:02:36 [kthread_di]
+S     0  1844     2     0     0 0:0   Sep08 00:00:00 [ipv6_addrconf]
+S     0  1851     2     0     0 0:0   Sep08 00:00:00 [krfcommd]
+S     0  1855     2     0     0 0:0   Sep08 00:00:00 [deferwq]
+S     0  1860     2     0     0 0:0   Sep08 00:00:00 [cec_work]
+S     0  1866     1   764   324 0:0   Sep08 00:00:00 /sbin/ueventd
+S     0  2679     2     0     0 0:0   Sep08 00:00:04 [aml_nftl_nfcach]
+S     0  2680     2     0     0 0:0   Sep08 00:00:00 [avnftl0]
+S     0  2685     2     0     0 0:0   Sep08 00:00:00 [kworker/2:1H]
+S     0  2688     2     0     0 0:0   Sep08 00:00:04 [aml_nftl_nfcode]
+S     0  2689     2     0     0 0:0   Sep08 00:00:00 [avnftl1]
+S     0  2692     2     0     0 0:0   Sep08 00:00:00 [avnftl2]
+S     0  2695     2     0     0 0:0   Sep08 00:00:00 [avnftl3]
+S     0  2698     2     0     0 0:0   Sep08 00:00:00 [avnftl4]
+S     0  2701     2     0     0 0:0   Sep08 00:00:00 [avnftl5]
+S     0  2704     2     0     0 0:0   Sep08 00:00:00 [avnftl6]
+S     0  2707     2     0     0 0:0   Sep08 00:00:00 [avnftl7]
+S     0  2710     2     0     0 0:0   Sep08 00:00:00 [avnftl8]
+S     0  2713     2     0     0 0:0   Sep08 00:03:48 [avnftl9]
+S     0  2717     2     0     0 0:0   Sep08 00:00:00 [kworker/3:1H]
+S     0  2719     2     0     0 0:0   Sep08 00:00:23 [aml_nftl_nfdata]
+S     0  2720     2     0     0 0:0   Sep08 00:09:01 [avnftl10]
+S     0  2726     2     0     0 0:0   Sep08 00:00:00 [kworker/u9:0]
+S     0  2733     2     0     0 0:0   Sep08 00:00:01 [kworker/1:1H]
+S     0  2734     2     0     0 0:0   Sep08 00:00:00 [jbd2/system-8]
+S     0  2735     2     0     0 0:0   Sep08 00:00:00 [ext4-rsv-conver]
+S     0  2740     2     0     0 0:0   Sep08 00:00:19 [jbd2/data-8]
+S     0  2741     2     0     0 0:0   Sep08 00:00:00 [ext4-rsv-conver]
+S     0  2745     2     0     0 0:0   Sep08 00:00:00 [jbd2/cache-8]
+S     0  2746     2     0     0 0:0   Sep08 00:00:00 [ext4-rsv-conver]
+S  1036  2747     1  8540  2560 0:0   Sep08 00:03:59 /system/bin/logd
+S     0  2748     1  1576   136 0:0   Sep08 00:00:00 /sbin/healthd
+S     0  2749     1  2380   324 0:0   Sep08 00:00:12 /system/bin/lmkd
+S  1000  2750     1  1244   352 0:0   Sep08 00:03:15 /system/bin/servicemanager
+S     0  2751     1  6888   340 0:0   Sep08 00:00:01 /system/bin/vold
+S  1000  2752     1  119m  1876 0:0   Sep08 00:28:50 /system/bin/surfaceflinger
+S     0  2764     2     0     0 0:0   Sep08 00:00:00 [kauditd]
+S  1023  2765     1  8324  3200 0:0   Sep08 00:05:35 /system/bin/sdcard -u 1023 -g 1023 -t 4 -l /data/media /mnt/shell/emulated
+S  2000  2798     1   536   128 245:0 Sep08 00:00:00 /system/bin/sh
+S     0  2799     1 10876   344 0:0   Sep08 00:02:00 /system/bin/netd
+S     0  2800     1  2008   632 0:0   Sep08 00:00:01 /system/bin/debuggerd
+S  1019  2802     1 13848   532 0:0   Sep08 00:00:00 /system/bin/drmserver
+S  1012  2804     1  1164   256 0:0   Sep08 00:00:00 /system/bin/installd
+S  1017  2806     1  4324   384 0:0   Sep08 00:00:00 /system/bin/keystore /data/misc/keystore
+S     0  2808     1  7292   568 0:0   Sep08 00:00:01 /system/bin/systemcontrol
+S     0  2811     1 29408   276 0:0   Sep08 00:00:00 /system/bin/imageserver
+S     0  2812     1 1444m 12472 0:0   Sep08 00:00:09 {main} zygote
+S     0  2844     2     0     0 0:0   Sep08 00:00:56 [aml_buf_toggle]
+S     0  3015     2     0     0 0:0   Sep08 00:00:00 [jbd2/zram0-8]
+S     0  3016     2     0     0 0:0   Sep08 00:00:00 [ext4-rsv-conver]
+S  1000  3087  2812 1597m 53848 0:0   Sep08 00:27:50 system_server
+S 10018  3249  2812 1506m 27064 0:0   Sep08 00:00:03 {ndroid.systemui} com.android.systemui
+S 10002  3324  2812 1470m 15856 0:0   Sep08 00:00:08 {utmethod.remote} com.droidlogic.inputmethod.remote
+S 10015  3346  2812 1505m 16316 0:0   Sep08 00:00:23 {android.vending} com.android.vending
+S  1000  3367  2812 1453m 12096 0:0   Sep08 00:00:00 {e.remotecontrol} com.droidlogic.service.remotecontrol
+S  1000  3373  2812 1454m 12440 0:0   Sep08 00:00:00 {SubTitleService} com.droidlogic.SubTitleService
+S  1000  3404  2812 1567m 51428 0:0   Sep08 01:03:56 {ic.mboxlauncher} com.droidlogic.mboxlauncher
+S     0  3737     1  1064    92 0:0   Sep08 00:00:00 daemonsu:mount:master
+S     0  3743     1  1664   336 0:0   Sep08 00:00:00 crond -b -c /data/mmx/cronjob/
+S     0  3753     1  4144   104 0:0   Sep08 00:00:00 daemonsu:master      
+S     0  3776     2     0     0 0:0   Sep08 00:00:00 [dwc_otg]
+S     0  3779     2     0     0 0:0   Sep08 00:00:00 [dwc_otg]
+S  2000  3792     1  2612   200 0:0   Sep08 00:00:37 /sbin/adbd --root_seclabel=u:r:su:s0
+S     0  3909     2     0     0 0:0   Sep08 00:00:00 [scsi_eh_0]
+S     0  3910     2     0     0 0:0   Sep08 00:00:00 [scsi_tmf_0]
+S     0  3911     2     0     0 0:0   Sep08 00:00:31 [usb-storage]
+S     0  4127     1  1996   808 0:0   Sep08 00:02:57 /system/bin/ntfs-3g /dev/block/vold/8:1 /mnt/media_rw/udisk0 -o locale=utf8,uid=1023,gid=1023,fmask=7,dmask=7
+S  1023  4150     1  6456   988 0:0   Sep08 00:01:53 /system/bin/sdcard -u 1023 -g 1023 -w 1023 -t 4 -d /mnt/media_rw/udisk0 /storage/udisk0
+S  1000  4243     1  1000   276 0:0   Sep08 00:03:18 /system/bin/usbtestpm
+S     0  4528     2     0     0 0:0   02:25 00:00:10 [kworker/0:0]
+Z 10075  4754  2812     0     0 0:0   Sep08 00:00:14 [.moretv.android]
+S     0  4990  3753  3116   100 0:0   Sep08 00:00:02 daemonsu:10079       
+S     0  5086  3753  4140    96 0:0   Sep08 00:00:00 daemonsu:10080       
+S     0  5299     1  1476   340 0:0   Sep08 00:00:06 /data/data/com.funkyfresh.samba/files/nmbd -D
+S     0  5301     1  3272     0 0:0   Sep08 00:00:00 /data/data/com.funkyfresh.samba/files/smbd -D
+S     0  5547     2     0     0 0:0   Sep08 00:00:07 [kworker/u9:1]
+S     0  5570     2     0     0 0:0   02:35 00:00:05 [kworker/0:1]
+S 10086  5574  2812 1457m 14176 0:0   Sep08 00:00:04 {pal.androidterm} jackpal.androidterm
+S 10086  5595  5574   536   144 pts1  Sep08 00:00:00 /system/bin/sh -
+S 10086  5678  5595   500    36 pts1  Sep08 00:01:20 su
+S     0  5681  3753  6192    80 0:0   Sep08 00:00:00 daemonsu:10086       
+S     0  5683  5681  6200   196 0:0   Sep08 00:01:29 daemonsu:10086:5678  
+S     0  5684  5683   540   184 pts3  Sep08 00:00:00 tmp-mksh -
+S     0  5833     1  2236   316 0:0   13:01 00:00:00 /system/bin/pppoe_wrapper
+S     0  5951     1  2456   376 0:0   13:01 00:00:01 pppd pty pppoe -p /data/misc/etc/ppp/pppoe.pid -I eth0 -T 80 -U -m 1412 debug logfd 1 noipdefault noauth default-asyncmap defaultroute show-password nodetach mtu 1492 mru 1492 noaccomp nodeflate nopcomp novj usep
+S  9999  5952  5951  1048   280 0:0   13:01 00:00:45 pppoe -p /data/misc/etc/ppp/pppoe.pid -I eth0 -T 80 -U -m 1412
+S     0  6203     2     0     0 0:0   02:41 00:00:03 [kworker/u8:1]
+S     0  6231     1   516     0 0:0   Sep08 00:00:00 {dropbear} /system/bin/sh /data/data/berserker.android.apps.sshdroid/dropbear/dropbear -H /data/data/berserker.android.apps.sshdroid/home -Y $1$456789$OzjtCJNgZ9CfTiUhpXc1y/ -S -p 30022 -r /data/data/berserker.an
+S     0  6232  6231  1172   296 0:0   Sep08 00:00:00 /data/data/berserker.android.apps.sshdroid/dropbear/dropbeard -H /data/data/berserker.android.apps.sshdroid/home -Y ffffffffffffffffffffffffffffffff -S -p 30022 -r /data/data/berserker.android.apps.sshdroid/dropb
+S     0  6351     2     0     0 0:0   Sep08 00:00:26 [ksdioirqd/sdio]
+S  1010  6354  2799  2720   676 0:0   Sep08 00:00:02 /system/bin/hostapd -e /data/misc/wifi/entropy.bin /data/misc/wifi/hostapd.conf
+S     0  6356     2     0     0 0:0   Sep08 00:01:01 [RTW_XMIT_THREAD]
+S     0  6357     2     0     0 0:0   Sep08 00:01:38 [RTW_CMD_THREAD]
+S     0  6358     2     0     0 0:0   Sep08 00:01:08 [RTWHALXT]
+S     0  6359     2     0     0 0:0   Sep08 00:00:00 [RTWHALXT]
+S  9999  6362  2799  1108   376 0:0   Sep08 00:00:29 /system/bin/dnsmasq --keep-in-foreground --no-resolv --no-poll --dhcp-authoritative --dhcp-option-force=43,ANDROID_METERED --pid-file  --dhcp-range=192.168.42.2,192.168.42.254,1h --dhcp-range=192.168.43.2,192.168
+S     0  6619     1   516     0 0:0   Sep08 00:00:00 {start.sh} /system/bin/sh ./start.sh
+S     0  6620  6619  9916  1400 0:0   Sep08 00:21:38 ./lib/EmbedThunderManager ******************************************
+S     0  7231     2     0     0 0:0   16:34 00:00:00 [kworker/3:1]
+Z 10075  7293  2812     0     0 0:0   13:08 00:00:01 [.moretv.android]
+S 10075  7399  2812 1502m 34468 0:0   16:35 00:00:11 {.moretv.android} com.moretv.android
+S     0  7428     2     0     0 0:0   02:52 00:00:01 [kworker/u8:0]
+S     0  7519     2     0     0 0:0   13:09 00:00:00 [kworker/3:2]
+S 10038  7735  2812 1454m 19656 0:0   16:36 00:00:00 {m.android.music} com.android.music
+S 10004  7754  2812 1455m 21468 0:0   16:36 00:00:00 {d.process.media} android.process.media
+S 10013  7878  2812 1453m 15156 0:0   16:37 00:00:00 {android.musicfx} com.android.musicfx
+S     0  8041     2     0     0 0:0   02:58 00:00:00 [kworker/u8:2]
+Z 10075  8101  2812     0     0 0:0   13:09 00:00:01 [.moretv.android]
+S     0  8144     2     0     0 0:0   02:59 00:00:00 [kworker/0:2]
+S     0  8254  6232  1256   476 0:0   03:00 00:00:00 /data/data/berserker.android.apps.sshdroid/dropbear/dropbeard -H /data/data/berserker.android.apps.sshdroid/home -Y ffffffffffffffffffffffffffffffff -S -p 30022 -r /data/data/berserker.android.apps.sshdroid/dropb
+S     0  8271  8254   540   260 pts5  03:00 00:00:00 -sh
+S  1000  8289  2812 1459m 11392 0:0   13:10 00:00:00 {oid.tv.settings} com.android.tv.settings
+S     0  8315     2     0     0 0:0   03:00 00:00:00 [kworker/1:0]
+R     0  8461  8271   920     4 pts5  03:02 00:00:00 ps -l
+Z 10075  8687  2812     0     0 0:0   13:11 00:00:01 [.moretv.android]
+Z 10075  9241  2812     0     0 0:0   13:12 00:00:01 [.moretv.android]
+Z 10075  9975  2812     0     0 0:0   13:14 00:00:01 [.moretv.android]
+S 10001 10783  2812 1455m 20680 0:0   22:15 00:00:00 {viders.calendar} com.android.providers.calendar
+S     0 11074     2     0     0 0:0   13:16 00:00:00 [threadrw]
+S 10085 11955  2812 1459m 12236 0:0   13:19 00:00:00 {aifile.xbplayer} com.xiaobaifile.xbplayer
+S 10062 12011  2812 1469m 14040 0:0   13:19 00:00:00 {.guozi.appstore} com.guozi.appstore
+S 10079 12066  2812 1461m 12760 0:0   13:20 00:00:00 {d.apps.sshdroid} berserker.android.apps.sshdroid
+Z 10075 12151  2812     0     0 0:0   13:20 00:00:03 [.moretv.android]
+S 10075 12175  2812 1472m 17476 0:0   13:20 00:00:05 {pi.moretvdaemon} com.peersless.api.moretvdaemon
+S  1000 12318  2812 1455m 10168 0:0   13:20 00:00:00 {roidlogic.PPPoE} com.droidlogic.PPPoE
+S 10026 14038  2812 1514m 32828 0:0   17:36 00:06:59 {droid.deskclock} com.android.deskclock
+S 10007 14073  2812 1556m 34048 0:0   17:36 00:00:00 {gle.android.gms} com.google.android.gms
+S 10007 14093  2812 1459m 21052 0:0   17:36 00:00:00 {e.process.gapps} com.google.process.gapps
+S 10007 14121  2812 1554m 31824 0:0   17:36 00:00:00 {.gms.persistent} com.google.android.gms.persistent
+S  1013 14409     1 62244 10072 0:0   13:27 00:04:23 /system/bin/mediaserver
+S     0 25277     2     0     0 0:0   00:35 00:00:00 [kworker/2:1]
+S     0 27182     2     0     0 0:0   15:01 00:00:04 [kworker/1:2]
+S     0 27917  6232  1272   476 0:0   01:00 00:00:00 /data/data/berserker.android.apps.sshdroid/dropbear/dropbeard -H /data/data/berserker.android.apps.sshdroid/home -Y ffffffffffffffffffffffffffffffff -S -p 30022 -r /data/data/berserker.android.apps.sshdroid/dropb
+S     0 27929 27917   540   264 pts6  01:00 00:00:00 -sh
+S     0 28009     2     0     0 0:0   01:01 00:00:00 [kworker/1:1]
+S     0 32041     2     0     0 0:0   01:40 00:00:00 [kworker/2:0]
