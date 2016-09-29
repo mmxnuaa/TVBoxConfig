@@ -1,0 +1,44 @@
+[2016-9-5 8:54:44:985 14793]: vod_httpserver: /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:45:28 14794]: daemon started ok.
+[2016-9-5 8:54:45:36 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:45:36 14794]: try starting /data/mmx/xunlei/lib/EmbedThunderManager.
+[2016-9-5 8:54:45:49 14794]: cannot find: vod_httpserver[0] in proc.
+[2016-9-5 8:54:45:49 14794]: try starting /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:45:49 14796]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:45:50 14796]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:45:51 14798]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:45:51 14798]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:47:129 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:47:129 14794]: try starting /data/mmx/xunlei/lib/EmbedThunderManager.
+[2016-9-5 8:54:47:142 14794]: cannot find: vod_httpserver[0] in proc.
+[2016-9-5 8:54:47:142 14794]: try starting /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:47:142 14800]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:47:143 14800]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:47:144 14802]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:47:144 14802]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:49:225 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:49:225 14794]: try starting /data/mmx/xunlei/lib/EmbedThunderManager.
+[2016-9-5 8:54:49:238 14805]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:49:239 14805]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:49:241 14794]: cannot find: vod_httpserver[0] in proc.
+[2016-9-5 8:54:49:241 14794]: try starting /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:49:242 14807]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:49:242 14807]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:51:331 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:51:331 14794]: try starting /data/mmx/xunlei/lib/EmbedThunderManager.
+[2016-9-5 8:54:51:341 14794]: cannot find: vod_httpserver[0] in proc.
+[2016-9-5 8:54:51:341 14794]: try starting /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:51:341 14809]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:51:341 14809]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:51:342 14811]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:51:343 14811]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:53:425 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:53:425 14794]: try starting /data/mmx/xunlei/lib/EmbedThunderManager.
+[2016-9-5 8:54:53:436 14794]: cannot find: vod_httpserver[0] in proc.
+[2016-9-5 8:54:53:437 14794]: try starting /data/mmx/xunlei/lib/vod_httpserver.
+[2016-9-5 8:54:53:438 14816]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:53:438 14816]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:53:440 14818]: start process chdir: /data/mmx/xunlei/lib/.
+[2016-9-5 8:54:53:440 14818]: start process error, dup2: 1 failed: Invalid argument.
+[2016-9-5 8:54:55:528 14794]: cannot find: EmbedThunderManager[0] in proc.
+[2016-9-5 8:54:55:540 14794]: the 5th continuous crash, will not restart it.

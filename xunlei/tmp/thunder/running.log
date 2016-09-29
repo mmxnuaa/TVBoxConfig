@@ -1,0 +1,24 @@
+
+[2016-9-5 8:56:55:331][pid:14889]: main begin
+[2016-9-5 8:56:55:475][pid:14889]: em_thread begin
+[2016-9-5 8:56:55:589][pid:14889]: dt_load_tasks_loop begin
+[2016-9-5 9:5:33:449][pid:14889]: start_task,task_id=1
+[2016-9-5 9:5:33:453][pid:14889]: pt_start_task
+[2016-9-5 9:5:34:574][pid:14889]: start call sd_enlarge_file in op_open_handler
+[2016-9-5 9:5:34:575][pid:14889]: sd_enlarge_file[49], FS TYPE: 0xEF53, NTFS_SB_MAGIC=0x5346544E, valid_size=1106469
+[2016-9-5 9:5:34:576][pid:14889]: end call of sd_enlarge_file in op_open_handler
+[2016-9-5 9:5:38:685][pid:14889]: file_info_close_tmp_file clock() returns: 19240227 clock-per-sec(19.24 secs)
+[2016-9-5 9:5:38:685][pid:14889]: fc, fstr:0x6f6658, rs:0, ws:0.
+[2016-9-5 9:5:38:685][pid:14889]: p_file_struct->_is_sending_write_op > 0
+[2016-9-5 9:5:38:685][pid:14889]: file_info_close_tmp_file clock() returns: 19240402 elapsed: 175 clock-per-sec(19.24 secs)
+[2016-9-5 9:5:38:686][pid:14889]: file_info_notify_file_close begin clock() returns: 19240777 clock-per-sec(19.24 secs)
+[2016-9-5 9:5:38:686][pid:14889]: task_id:1, dm_notify_file_close_result  user data:0x6c2d50m, file_info :0x6c2d50 , result:0 .
+[2016-9-5 9:5:38:687][pid:14889]: file_info_notify_file_close end clock() returns: 19241190 elapsed: 413 clock-per-sec(19.24 secs)
+[2016-9-5 9:5:41:263][pid:14889]: task_id:1, et_delete_task.
+[2016-9-5 9:5:41:273][pid:14889]: task_id:1, tm_delete_target_task, task_type:0.
+[2016-9-5 9:5:41:323][pid:14889]: file_info_close_tmp_file clock() returns: 19561889 clock-per-sec(19.56 secs)
+[2016-9-5 9:5:41:324][pid:14889]: file_info_close_tmp_file clock() returns: 19563303 elapsed: 1414 clock-per-sec(19.56 secs)
+[2016-9-5 9:5:41:340][pid:14889]: task_id:1, dm_notify_file_close_result  user data:0x6c2d50m, file_info :0x6c2d50 , result:0 .
+[2016-9-5 9:5:41:341][pid:14889]: pt_notify_file_closing_result_event(_p_download_task=6C22D0,_result=0)
+[2016-9-5 9:5:41:344][pid:14889]: tm_signal_sevent_handle(p_sevent_handle=F75E49D4)
+[2016-9-5 9:5:41:345][pid:14889]: signal_sevent_handle(*p_sevent_handle=-2)
