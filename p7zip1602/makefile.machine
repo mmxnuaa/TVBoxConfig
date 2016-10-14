@@ -1,0 +1,58 @@
+# makefile for LINUX cross ANDROID
+# credits: sherpya (makefile), JustArchi (flags)
+
+# http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin
+ANDROID_NDK_HOME=/home/ubuntu/android-ndk-r10e
+
+ARCH=arm
+ABI=armeabi-v7a
+GCC_OPT=-march=armv7-a -mthumb -mfloat-abi=softfp -mfpu=neon
+GCC_VER=4.9
+PLATFORM=15
+
+ANDROID_NDK_BIN=$(ANDROID_NDK_HOME)/toolchains/$(ARCH)-linux-androideabi-$(GCC_VER)/prebuilt/linux-x86/bin
+
+ANDROID_FLAGS=\
+ $(GCC_OPT) \
+ -fPIE -pie \
+ -ffunction-sections \
+ -funwind-tables \
+ -DANDROID \
+ -DANDROID_NDK \
+ -fomit-frame-pointer \
+ -fno-strict-aliasing -finline-limit=64 \
+ -I$(ANDROID_NDK_HOME)/platforms/android-$(PLATFORM)/arch-$(ARCH)/usr/include \
+ -I$(ANDROID_NDK_HOME)/sources/cxx-stl/gnu-libstdc++/$(GCC_VER)/include \
+ -fgcse-las -fgcse-sm -fipa-pta -fivopts -frename-registers -fsection-anchors -ftree-loop-im -ftree-loop-ivcanon -funsafe-loop-optimizations -funswitch-loops -fweb \
+ -fgraphite -fgraphite-identity \
+ -floop-block -floop-interchange -floop-nest-optimize -floop-parallelize-all -floop-strip-mine -fmodulo-sched -fmodulo-sched-allow-regmoves \
+ -fPIC -DNDEBUG -D__ANDROID__ -s -R .note -R .comment -R .gnu.version -R .gnu.version_r
+
+ANDROID_LINK=\
+ $(GCC_OPT) \
+ --sysroot=$(ANDROID_NDK_HOME)/platforms/android-$(PLATFORM)/arch-$(ARCH) \
+ -L$(ANDROID_NDK_HOME)/sources/cxx-stl/gnu-libstdc++/$(GCC_VER)/libs/$(ABI) \
+ -lstdc++ -lgnustl_static -lsupc++ \
+ -Wl,--fix-cortex-a8 \
+ -llog -Wl,-O3 -Wl,--as-needed -Wl,--gc-sections -Wl,--relax -Wl,--sort-common
+
+# -Wl,--gc-sections -Wl,-z,nocopyreloc
+# -Wl,--no-undefined -Wl,-z,noexecstack
+
+OPTFLAGS=-O3
+
+ALLFLAGS=${OPTFLAGS} -pipe -s \
+	-DNDEBUG -D_REENTRANT -DENV_UNIX \
+	$(ANDROID_FLAGS) \
+	$(LOCAL_FLAGS)
+
+CXX=$(ANDROID_NDK_BIN)/$(ARCH)-linux-androideabi-g++ -fexceptions -frtti
+CC=$(ANDROID_NDK_BIN)/$(ARCH)-linux-androideabi-gcc
+CC_SHARED= -fpic
+LINK_SHARED=-fpic -shared
+
+LOCAL_LIBS=$(ANDROID_LINK)
+LOCAL_LIBS_DLL=$(LOCAL_LIBS) # -ldl
+
+OBJ_CRC32=$(OBJ_CRC32_C)
+OBJ_AES=
