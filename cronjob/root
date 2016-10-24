@@ -10,6 +10,7 @@
 #0 4 * * 0 (sleep 65;touch /etc/banner;ifdown wan;reboot)
 #*/5 * * * * log -t mmxcron "abcd"
 */5 * * * * /data/mmx/xunlei/check-xunlei.sh
+*/5 * * * * /data/mmx/hostapd/chk-hostapd.sh
 */2 * * * * /data/mmx/set-ddns.sh
 */2 * * * * /data/mmx/chk-pppd.sh
 
