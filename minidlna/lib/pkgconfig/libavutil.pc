@@ -1,0 +1,14 @@
+prefix=/mnt/drone/tmp/kkk/minidlna/target/install
+exec_prefix=${prefix}
+libdir=/mnt/drone/tmp/mmxout//lib
+includedir=${prefix}/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 54.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

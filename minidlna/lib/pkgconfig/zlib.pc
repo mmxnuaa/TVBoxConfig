@@ -1,0 +1,13 @@
+prefix=/mnt/drone/tmp/kkk/minidlna/target/install
+exec_prefix=${prefix}
+libdir=/mnt/drone/tmp/mmxout//lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

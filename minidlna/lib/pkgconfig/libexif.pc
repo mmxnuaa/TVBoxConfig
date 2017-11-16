@@ -1,0 +1,12 @@
+prefix=/mnt/drone/tmp/kkk/minidlna/target/install
+exec_prefix=${prefix}
+libdir=/mnt/drone/tmp/mmxout//lib
+includedir=${prefix}/include
+
+Name: libexif
+Description: Library for easy access to EXIF data
+Requires:
+Version: 0.6.21
+Libs: -L${libdir} -lexif
+Libs.private: -lm
+Cflags: -I${includedir}

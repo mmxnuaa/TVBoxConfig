@@ -8,7 +8,9 @@ iptables -A INPUT -p tcp --dport 30022 -j ACCEPT
 iptables -A INPUT -p tcp --dport 20080 -j ACCEPT
 #aria2
 iptables -A INPUT -p tcp --dport 6900 -j ACCEPT
+iptables -A INPUT -p tcp --dport 6901 -j ACCEPT
 iptables -A INPUT -p tcp --dport 51413 -j ACCEPT
+iptables -A INPUT -p tcp --dport 51414 -j ACCEPT
 
 #iptables -A INPUT -p tcp -i ppp+ --dport 8200 -j DROP
 iptables -A INPUT -p tcp -i ppp+ --dport 1:65535 -m state --state NEW -j DROP
@@ -22,7 +24,9 @@ ip6tables -A INPUT -p tcp --dport 30022 -j ACCEPT
 iptables -A INPUT -p tcp --dport 20080 -j ACCEPT
 #aria2
 iptables -A INPUT -p tcp --dport 6900 -j ACCEPT
+iptables -A INPUT -p tcp --dport 6901 -j ACCEPT
 iptables -A INPUT -p tcp --dport 51413 -j ACCEPT
+iptables -A INPUT -p tcp --dport 51414 -j ACCEPT
 
 #ip6tables -A INPUT -p tcp -i ppp+ --dport 8200 -j DROP
 ip6tables -A INPUT -p tcp -i ppp+ --dport 1:65535 -m state --state NEW -j DROP

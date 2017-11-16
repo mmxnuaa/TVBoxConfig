@@ -1,0 +1,141 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "port": 1080,
+    "listen": "127.0.0.1",
+    "protocol": "socks",
+    "settings": {
+      "auth": "noauth",
+      "udp": true,
+      "ip": "127.0.0.1"
+    }
+  },
+  "outbound": {
+    "protocol": "freedom",
+    "settings": {},
+    "tag": "direct"
+  },
+  "outboundDetour": [
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.62.98.187",
+            "port": 41200,
+            "users": [
+              {
+                "id": "08a28442-b8b2-418e-a7f5-63099202c839",
+                "alterId": 64,
+                "security": "aes-128-gcm"
+              }
+            ]
+          }
+        ]
+      },
+      "mux": {
+        "enabled": true
+      },
+      "tag": "GFW"
+    }
+  ],
+  "dns": {
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4",
+      "localhost"
+    ]
+  },
+  "routing": {
+    "strategy": "rules",
+    "settings": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            ".goo",
+            "ggpht",
+            "gstatic",
+            "facebook.com",
+            "fbcdn.net",
+            "youtube.com",
+            "youtu.be",
+            "ytimg.com",
+            "twitter.com",
+            "twimg.com",
+            "twitpic.com",
+            "t.co",
+            "bitly.com",
+            "j.mp",
+            "bit.ly",
+            "blogspot",
+            "blogger",
+            "blogblog",
+            "dropbox.com",
+            "flickr.com",
+            "udn.com",
+            "chinagfw.org",
+            "godoc.org",
+            "golang.org",
+            "gravatar.com",
+            "gstatic.com",
+            "mediafire.com"
+          ],
+          "outboundTag": "GFW"
+        },
+        {
+          "type": "field",
+          "port": "1-52",
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "port": "54-79",
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "port": "81-442",
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "port": "444-65535",
+          "outboundTag": "direct"
+        },
+        {
+          "type": "chinasites",
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "100.64.0.0/10",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.0.0.0/24",
+            "192.0.2.0/24",
+            "192.168.0.0/16",
+            "198.18.0.0/15",
+            "198.51.100.0/24",
+            "203.0.113.0/24",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "chinaip",
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  }
+}

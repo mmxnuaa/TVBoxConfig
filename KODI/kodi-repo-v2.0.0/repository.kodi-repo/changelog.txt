@@ -1,0 +1,6 @@
+﻿[B]Version 1.0.0[/B]
+- My initial repo on github.com.
+
+[B]Version 2.0.0[/B]
+- Fixed bugs.
+- Replace icon.

@@ -9,4 +9,9 @@ crond -b -c /data/mmx/cronjob/
 /data/mmx/set-route.sh
 /data/mmx/kick-smbd.sh
 
+
+setprop mmx.hostapd.forceon 1
+
 #/data/mmx/xunlei/start.sh
+
+/data/mmx/iptable_settings.sh

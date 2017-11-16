@@ -1,10 +1,11 @@
 #!/system/bin/sh
 on=0
-n=`date +'%s'`
+n=`busybox date +'%s'`
 d=`expr $n + 28800`
 #echo $d
-dow=`date -d @$d -u +'%w'`
-h=`date -d @$d -u +'%k'`
+dow=`busybox date -d @$d -u +'%w'`
+#echo $dow
+h=`busybox date -d @$d -u +'%k'`
 #echo $dow  $hour
 
 case $dow in

@@ -1,0 +1,11 @@
+prefix=/mnt/drone/tmp/kkk/minidlna/target/install
+exec_prefix=${prefix}
+libdir=/mnt/drone/tmp/mmxout//lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 1.43.4
+Requires: 
+Cflags: -I${includedir}/uuid -I${includedir}
+Libs: -L${libdir} -luuid
